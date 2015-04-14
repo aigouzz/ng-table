@@ -1,0 +1,1560 @@
+[
+  {
+    "name": "flare.cluster.Hyper-V",
+    "size": 338,
+    "imports": [
+      "flare.graph.BSM",
+      "flare.cluster.KVM",
+      "flare.cluster.vCenter",
+      "flare.cluster.vMotion",
+      "flare.graph.CMDB",
+      "flare.cloud.Desktop Cloud",
+      "flare.cloud.Desktop-as-a-Service(DaaS)",
+      "flare.link.Bar Code"
+    ]
+  },
+  {
+    "name": "flare.cluster.KVM",
+    "size": 812,
+    "imports": [
+      "flare.graph.BSM",
+      "flare.cluster.Hyper-V",
+      "flare.graph.CMDB",
+      "flare.cluster.vCenter",
+      "flare.cluster.vMotion",
+      "flare.cluster.vNet",
+      "flare.cloud.Test Cloud",
+      "flare.cloud.Infrastructure-as-a-Service(IaaS)",
+      "flare.link.Intelligent Card"
+    ]
+  },
+  {
+    "name": "flare.cluster.vCenter",
+    "size": 714,
+    "imports": [
+      "flare.cluster.vNet",
+      "flare.cluster.KVM",
+      "flare.cluster.Hyper-V",
+      "flare.cluster.vStorage",
+      "flare.graph.ITIL",
+      "flare.graph.Enterprise Control Center(ECC)",
+      "flare.cloud.OpenStack",
+      "flare.cloud.Mix Cloud",
+      "flare.link.Intelligent Tab"
+    ]
+  },
+  {
+    "name": "flare.cluster.vMotion",
+    "size": 743,
+    "imports": [
+      "flare.cluster.vStorage",
+      "flare.cluster.KVM",
+      "flare.cluster.Hyper-V",
+      "flare.cluster.vNet",
+      "flare.cloud.Private Cloud",
+      "flare.cloud.Platform-as-a-Service(PaaS)",
+      "flare.graph.IT Service Management(ITSM)",
+      "flare.graph.Security Management",
+      "flare.graph.Network Management"
+    ]
+  },
+  {
+    "name": "flare.cluster.vStorage",
+    "size": 534,
+    "imports": [
+      "flare.link.Temperature Humidity Sensor",
+      "flare.cluster.vMotion",
+      "flare.cluster.vCenter",
+      "flare.cluster.vNet",
+      "flare.cloud.AutoMation",
+      "flare.cloud.Software-as-a-Service(SaaS)",
+      "flare.link.PDU"
+    ]
+  },
+  {
+    "name": "flare.cluster.vNet",
+    "size": 731,
+    "imports": [
+      "flare.cluster.vMotion",
+      "flare.cluster.vCenter",
+      "flare.cluster.KVM",
+      "flare.cloud.Cloud Storage",
+      "flare.graph.Server Monitoring",
+      "flare.graph.Asset Management",
+      "flare.link.RFID",
+      "flare.link.CFD"
+    ]
+  },
+  {
+    "name": "flare.graph.BSM",
+    "size": 840,
+    "imports": [
+      "flare.graph.ITIL",
+      "flare.cluster.KVM",
+      "flare.cluster.Hyper-V",
+      "flare.graph.Application Performance Management",
+      "flare.graph.Network Flow Analysis",
+      "flare.db.Tomcat",
+      "flare.cloud.Desktop Cloud"
+    ]
+  },
+  {
+    "name": "flare.graph.CMDB",
+    "size": 192,
+    "imports": [
+      "flare.graph.SLA/OLA",
+      "flare.cluster.KVM",
+      "flare.cluster.Hyper-V",
+      "flare.graph.Business Transaction Monitoring",
+      "flare.graph.Security Management",
+      "flare.db.Sybase",
+      "flare.cloud.AutoMation",
+      "flare.operation.zOS"
+    ]
+  },
+  {
+    "name": "flare.graph.Enterprise Control Center(ECC)",
+    "size": 495,
+    "imports": [
+      "flare.graph.Helpdesk",
+      "flare.cluster.vCenter",
+      "flare.graph.Incident Management",
+      "flare.graph.Database Performance Monitoring",
+      "flare.db.MySQL",
+      "flare.cloud.Test Cloud",
+      "flare.operation.Linux"
+    ]
+  },
+  {
+    "name": "flare.graph.Helpdesk",
+    "size": 674,
+    "imports": [
+      "flare.graph.Enterprise Control Center(ECC)",
+      "flare.graph.Server Monitoring",
+      "flare.db.WebLogic",
+      "flare.cloud.Mix Cloud",
+      "flare.operation.AIX"
+    ]
+  },
+  {
+    "name": "flare.graph.IT Service Management(ITSM)",
+    "size": 541,
+    "imports": [
+      "flare.cluster.vMotion",
+      "flare.graph.Knowledge Management",
+      "flare.graph.Asset Management",
+      "flare.db.NoSQL",
+      "flare.cloud.Desktop-as-a-Service(DaaS)",
+      "flare.operation.HP-UX"
+    ]
+  },
+  {
+    "name": "flare.graph.ITIL",
+    "size": 774,
+    "imports": [
+      "flare.graph.BSM",
+      "flare.cluster.vCenter",
+      "flare.graph.Configuration Management",
+      "flare.data.DataWare House",
+      "flare.db.Oracle",
+      "flare.cloud.Infrastructure-as-a-Service(IaaS)",
+      "flare.control.IDS"
+    ]
+  },
+  {
+    "name": "flare.graph.SLA/OLA",
+    "size": 359,
+    "imports": [
+      "flare.cluster.vMotion",
+      "flare.graph.CMDB",
+      "flare.data.Grid Computation",
+      "flare.db.WebSphere",
+      "flare.cloud.Software-as-a-Service(SaaS)",
+      "flare.control.SOC"
+    ]
+  },
+  {
+    "name": "flare.graph.Business Transaction Monitoring",
+    "size": 245,
+    "imports": [
+      "flare.cluster.vMotion",
+      "flare.graph.CMDB",
+      "flare.graph.Application Log Analysis",
+      "flare.data.Distribute Computation",
+      "flare.link.Video Monitor",
+      "flare.cloud.Platform-as-a-Service(PaaS)",
+      "flare.control.Data Encryption"
+    ]
+  },
+  {
+    "name": "flare.graph.Incident Management",
+    "size": 156,
+    "imports": [
+      "flare.cluster.vStorage",
+      "flare.graph.CMDB",
+      "flare.graph.Enterprise Control Center(ECC)",
+      "flare.data.Hadoop",
+      "flare.link.QR Code",
+      "flare.cloud.Cloud Storage",
+      "flare.control.Access Control"
+    ]
+  },
+  {
+    "name": "flare.graph.Change Management",
+    "size": 725,
+    "imports": [
+      "flare.cluster.Hyper-V",
+      "flare.graph.Knowledge Management",
+      "flare.data.Data Minning",
+      "flare.link.CFD",
+      "flare.cloud.AutoMation",
+      "flare.control.DMZ"
+    ]
+  },
+  {
+    "name": "flare.graph.Security Management",
+    "size": 648,
+    "imports": [
+      "flare.cluster.vNet",
+      "flare.cluster.vMotion",
+      "flare.graph.CMDB",
+      "flare.data.Machine Learning",
+      "flare.link.Video Monitor",
+      "flare.cloud.Desktop Cloud",
+      "flare.control.Anti Virus"
+    ]
+  },
+  {
+    "name": "flare.graph.Capacity Management",
+    "size": 539,
+    "imports": [
+      "flare.graph.Application Performance Management",
+      "flare.graph.Network Management",
+      "flare.data.Distribute Computation",
+      "flare.link.Intelligent Access Control",
+      "flare.cloud.Mix Cloud",
+      "flare.control.Email System"
+    ]
+  },
+  {
+    "name": "flare.graph.Application Performance Management",
+    "size": 456,
+    "imports": [
+      "flare.data.Business Intelligence",
+      "flare.link.NFC",
+      "flare.cloud.OpenStack",
+      "flare.control.Data Backup",
+      "flare.graph.Capacity Management",
+      "flare.graph.BSM"
+    ]
+  },
+  {
+    "name": "flare.graph.Application Log Analysis",
+    "size": 356,
+    "imports": [
+      "flare.data.Hbase",
+      "flare.link.Intelligent Card",
+      "flare.cloud.Test Cloud",
+      "flare.control.LDAP",
+      "flare.graph.Network Flow Analysis",
+      "flare.graph.Business Transaction Monitoring"
+    ]
+  },
+  {
+    "name": "flare.graph.Database Performance Monitoring",
+    "size": 752,
+    "imports": [
+      "flare.data.DataWare House",
+      "flare.link.RFID",
+      "flare.cloud.Public Cloud",
+      "flare.control.DDoS",
+      "flare.graph.Configuration Management",
+      "flare.graph.Enterprise Control Center(ECC)"
+    ]
+  },
+  {
+    "name": "flare.graph.Server Monitoring",
+    "size": 493,
+    "imports": [
+      "flare.data.Hadoop",
+      "flare.link.CFD",
+      "flare.cloud.Private Cloud",
+      "flare.control.Data Recovery",
+      "flare.cluster.vNet",
+      "flare.graph.Helpdesk"
+    ]
+  },
+  {
+    "name": "flare.graph.Knowledge Management",
+    "size": 372,
+    "imports": [
+      "flare.data.Distribute Computation",
+      "flare.link.Intelligent Tab",
+      "flare.cloud.Software-as-a-Service(SaaS)",
+      "flare.control.Access Control",
+      "flare.graph.Change Management",
+      "flare.graph.IT Service Management(ITSM)"
+    ]
+  },
+  {
+    "name": "flare.graph.Network Flow Analysis",
+    "size": 316,
+    "imports": [
+      "flare.graph.Application Log Analysis",
+      "flare.graph.BSM"
+    ]
+  },
+  {
+    "name": "flare.graph.Network Management",
+    "size": 316,
+    "imports": [
+      "flare.graph.Capacity Management",
+      "flare.cluster.vMotion"
+    ]
+  },
+  {
+    "name": "flare.graph.Asset Management",
+    "size": 416,
+    "imports": [
+      "flare.cluster.vNet",
+      "flare.graph.IT Service Management(ITSM)"
+    ]
+  },
+  {
+    "name": "flare.graph.Configuration Management",
+    "size": 346,
+    "imports": [
+      "flare.graph.Database Performance Monitoring",
+      "flare.graph.ITIL"
+    ]
+  },
+  {
+    "name": "flare.transform.Blade Server",
+    "size": 170,
+    "imports": [
+      "flare.transform.IDS",
+      "flare.system.Aircondtion",
+      "flare.proto.VLAN",
+      "flare.data.Distribute Computation",
+      "flare.operation.Solaris"
+    ]
+  },
+  {
+    "name": "flare.transform.Firewall",
+    "size": 842,
+    "imports": [
+      "flare.transform.Load Balance",
+      "flare.system.PowerSystem",
+      "flare.proto.VoIP",
+      "flare.data.Business Intelligence",
+      "flare.operation.Linux"
+    ]
+  },
+  {
+    "name": "flare.transform.IDS",
+    "size": 183,
+    "imports": [
+      "flare.transform.Blade Server",
+      "flare.transform.Mainframe",
+      "flare.system.Facility Monitoring",
+      "flare.proto.DNS",
+      "flare.data.DataWare House",
+      "flare.operation.HP-UX"
+    ]
+  },
+  {
+    "name": "flare.transform.Load Balance",
+    "size": 247,
+    "imports": [
+      "flare.transform.Firewall",
+      "flare.transform.NAS",
+      "flare.system.Air System",
+      "flare.proto.Multicast",
+      "flare.data.Data Minning",
+      "flare.operation.AIX"
+    ]
+  },
+  {
+    "name": "flare.transform.MCU",
+    "size": 375,
+    "imports": [
+      "flare.transform.PC Server",
+      "flare.transform.SAN Switch",
+      "flare.system.Building Automation and Control System(BAS)",
+      "flare.proto.WLAN",
+      "flare.data.Machine Learning",
+      "flare.operation.zOS"
+    ]
+  },
+  {
+    "name": "flare.transform.Mainframe",
+    "size": 746,
+    "imports": [
+      "flare.transform.Switch",
+      "flare.system.Green Power",
+      "flare.proto.OSPF/BGP",
+      "flare.data.Grid Computation",
+      "flare.operation.Windows",
+      "flare.transform.IDS"
+    ]
+  },
+  {
+    "name": "flare.transform.NAS",
+    "size": 202,
+    "imports": [
+      "flare.transform.Multi-media Terminal",
+      "flare.system.NetLine Management",
+      "flare.proto.SDN",
+      "flare.data.Hadoop",
+      "flare.operation.Linux",
+      "flare.transform.Load Balance"
+    ]
+  },
+  {
+    "name": "flare.transform.PC Server",
+    "size": 382,
+    "imports": [
+      "flare.transform.Storage",
+      "flare.system.BIM",
+      "flare.proto.10G Ethernet",
+      "flare.data.Hbase",
+      "flare.operation.HP-UX",
+      "flare.transform.MCU"
+    ]
+  },
+  {
+    "name": "flare.transform.SAN Switch",
+    "size": 629,
+    "imports":
+    [
+      "flare.transform.Minicomputers",
+      "flare.system.DCIM",
+      "flare.proto.DAN",
+      "flare.data.Distribute Computation",
+      "flare.operation.AIX",
+      "flare.transform.MCU"
+    ]
+  },
+  {
+    "name": "flare.transform.Switch",
+    "size": 675,
+    "imports": [
+      "flare.transform.Tape",
+      "flare.system.KVM",
+      "flare.proto.DWDM",
+      "flare.data.Business Intelligence",
+      "flare.operation.zOS"
+    ]
+  },
+  {
+    "name": "flare.transform.Multi-media Terminal",
+    "size": 242,
+    "imports": [
+      "flare.transform.Router",
+      "flare.system.PDU",
+      "flare.proto.NAT",
+      "flare.data.DataWare House",
+      "flare.operation.Windows",
+      "flare.transform.NAS"
+    ]
+  },
+  {
+    "name": "flare.transform.Storage",
+    "size": 141,
+    "imports": [
+      "flare.transform.Router",
+      "flare.system.UPS",
+      "flare.proto.Infiniband",
+      "flare.data.Data Minning",
+      "flare.operation.Solaris",
+      "flare.transform.PC Server"
+    ]
+  },
+  {
+    "name": "flare.transform.Minicomputers",
+    "size": 576,
+    "imports": [
+      "flare.system.Aircondtion",
+      "flare.proto.OpenFlow",
+      "flare.data.Machine Learning",
+      "flare.operation.Linux",
+      "flare.transform.SAN Switch"
+    ]
+  },
+  {
+    "name": "flare.transform.Tape",
+    "size": 449,
+    "imports": [
+      "flare.system.PowerSystem",
+      "flare.proto.QoS",
+      "flare.data.Grid Computation",
+      "flare.operation.HP-UX",
+      "flare.transform.Switch"
+    ]
+  },
+  {
+    "name": "flare.transform.Router",
+    "size": 553,
+    "imports": [
+      "flare.system.Facility Monitoring",
+      "flare.proto.SDH",
+      "flare.data.Hadoop",
+      "flare.operation.AIX",
+      "flare.transform.Storage",
+      "flare.transform.Multi-media Terminal"
+    ]
+  },
+  {
+    "name": "flare.cloud.Desktop-as-a-Service(DaaS)",
+    "size": 534,
+    "imports": [
+      "flare.cloud.Cloud Storage",
+      "flare.cluster.Hyper-V",
+      "flare.link.Video Monitor",
+      "flare.proto.QoS",
+      "flare.graph.IT Service Management(ITSM)"
+    ]
+  },
+  {
+    "name": "flare.cloud.Infrastructure-as-a-Service(IaaS)",
+    "size": 201,
+    "imports": [
+      "flare.cloud.Software-as-a-Service(SaaS)",
+      "flare.cluster.KVM",
+      "flare.link.Temperature Humidity Sensor",
+      "flare.proto.SDH",
+      "flare.graph.ITIL"
+    ]
+  },
+  {
+    "name": "flare.cloud.OpenStack",
+    "size": 975,
+    "imports": [
+      "flare.cluster.vCenter",
+      "flare.link.Bar Code",
+      "flare.proto.VLAN",
+      "flare.graph.Application Performance Management"
+    ]
+  },
+  {
+    "name": "flare.cloud.Platform-as-a-Service(PaaS)",
+    "size": 116,
+    "imports": [
+      "flare.cloud.Infrastructure-as-a-Service(IaaS)",
+      "flare.cluster.vMotion",
+      "flare.link.Intelligent Access Control",
+      "flare.proto.VoIP",
+      "flare.graph.Business Transaction Monitoring"
+    ]
+  },
+  {
+    "name": "flare.cloud.Software-as-a-Service(SaaS)",
+    "size": 606,
+    "imports": [
+      "flare.cloud.Public Cloud",
+      "flare.cluster.vStorage",
+      "flare.link.Intelligent Tab",
+      "flare.proto.DNS",
+      "flare.graph.Knowledge Management",
+      "flare.graph.SLA/OLA"
+    ]
+  },
+  {
+    "name": "flare.cloud.Cloud Storage",
+    "size": 721,
+    "imports": [
+      "flare.cloud.Desktop-as-a-Service(DaaS)",
+      "flare.cluster.vNet",
+      "flare.link.Intelligent Card",
+      "flare.proto.Multicast",
+      "flare.graph.Incident Management"
+    ]
+  },
+  {
+    "name": "flare.cloud.Public Cloud",
+    "size": 4294,
+    "imports": [
+      "flare.cloud.Test Cloud",
+      "flare.cluster.vNet",
+      "flare.link.Intelligent Card",
+      "flare.proto.Multicast",
+      "flare.graph.Database Performance Monitoring"
+    ]
+  },
+  {
+    "name": "flare.cloud.Desktop Cloud",
+    "size": 800,
+    "imports": [
+      "flare.cloud.Mix Cloud",
+      "flare.cluster.Hyper-V",
+      "flare.link.PDU",
+      "flare.proto.WLAN",
+      "flare.graph.Security Management",
+      "flare.graph.BSM"
+    ]
+  },
+  {
+    "name": "flare.cloud.Test Cloud",
+    "size": 314,
+    "imports": [
+      "flare.cloud.Private Cloud",
+      "flare.cluster.KVM",
+      "flare.link.QR Code",
+      "flare.proto.OSPF/BGP",
+      "flare.cloud.Public Cloud",
+      "flare.graph.Application Log Analysis",
+      "flare.graph.Enterprise Control Center(ECC)"
+    ]
+  },
+  {
+    "name": "flare.cloud.Mix Cloud",
+    "size": 220,
+    "imports": [
+      "flare.cloud.AutoMation",
+      "flare.cluster.vCenter",
+      "flare.link.RFID",
+      "flare.proto.SDN",
+      "flare.cloud.Desktop Cloud",
+      "flare.graph.Capacity Management",
+      "flare.graph.Helpdesk"
+    ]
+  },
+  {
+    "name": "flare.cloud.Private Cloud",
+    "size": 759,
+    "imports": [
+      "flare.db.DB2",
+      "flare.cluster.vMotion",
+      "flare.link.NFC",
+      "flare.proto.10G Ethernet",
+      "flare.cloud.Test Cloud",
+      "flare.graph.Server Monitoring"
+    ]
+  },
+  {
+    "name": "flare.cloud.AutoMation",
+    "size": 265,
+    "imports": [
+      "flare.cluster.vStorage",
+      "flare.link.CFD",
+      "flare.proto.DAN",
+      "flare.cloud.Mix Cloud",
+      "flare.graph.Change Management",
+      "flare.graph.CMDB"
+    ]
+  },
+  {
+    "name": "flare.system.BIM",
+    "size": 586,
+    "imports": [
+      "flare.system.KVM",
+      "flare.control.Anti Virus",
+      "flare.operation.zOS",
+      "flare.db.WebSphere",
+      "flare.transform.PC Server"
+    ]
+  },
+  {
+    "name": "flare.system.DCIM",
+    "size": 331,
+    "imports": [
+      "flare.system.PDU",
+      "flare.control.Data Backup",
+      "flare.operation.Windows",
+      "flare.db.WebLogic",
+      "flare.transform.SAN Switch"
+    ]
+  },
+  {
+    "name": "flare.system.KVM",
+    "size": 772,
+    "imports": [
+      "flare.system.UPS",
+      "flare.control.Data Recovery",
+      "flare.operation.Solaris",
+      "flare.db.Tomcat",
+      "flare.system.BIM",
+      "flare.transform.Switch"
+    ]
+  },
+  {
+    "name": "flare.system.PDU",
+    "size": 322,
+    "imports": [
+      "flare.system.Aircondtion",
+      "flare.control.Email System",
+      "flare.operation.Linux",
+      "flare.db.Sybase",
+      "flare.system.DCIM",
+      "flare.transform.Multi-media Terminal"
+    ]
+  },
+  {
+    "name": "flare.system.UPS",
+    "size": 833,
+    "imports": [
+      "flare.system.PowerSystem",
+      "flare.control.IDS",
+      "flare.operation.HP-UX",
+      "flare.db.Oracle",
+      "flare.system.KVM",
+      "flare.transform.Storage"
+    ]
+  },
+  {
+    "name": "flare.system.Aircondtion",
+    "size": 172,
+    "imports": [
+      "flare.system.Facility Monitoring",
+      "flare.control.SOC",
+      "flare.operation.AIX",
+      "flare.db.NoSQL",
+      "flare.system.PDU",
+      "flare.transform.Minicomputers",
+      "flare.transform.Blade Server"
+    ]
+  },
+  {
+    "name": "flare.system.PowerSystem",
+    "size": 323,
+    "imports": [
+      "flare.system.Air System",
+      "flare.control.LDAP",
+      "flare.operation.zOS",
+      "flare.db.MySQL",
+      "flare.system.UPS",
+      "flare.transform.Tape",
+      "flare.transform.Firewall"
+    ]
+  },
+  {
+    "name": "flare.system.Facility Monitoring",
+    "size": 166,
+    "imports": [
+      "flare.system.Building Automation and Control System(BAS)",
+      "flare.control.Data Encryption",
+      "flare.operation.Windows",
+      "flare.db.DB2",
+      "flare.system.Aircondtion",
+      "flare.transform.Router",
+      "flare.transform.IDS"
+    ]
+  },
+  {
+    "name": "flare.system.Air System",
+    "size": 416,
+    "imports": [
+      "flare.system.Green Power",
+      "flare.control.DMZ",
+      "flare.operation.Solaris",
+      "flare.db.WebSphere",
+      "flare.system.PowerSystem",
+      "flare.transform.Load Balance"
+    ]
+  },
+  {
+    "name": "flare.system.Building Automation and Control System(BAS)",
+    "size": 182,
+    "imports": [
+      "flare.system.NetLine Management",
+      "flare.control.DDoS",
+      "flare.operation.Linux",
+      "flare.db.WebLogic",
+      "flare.system.Facility Monitoring",
+      "flare.transform.MCU"
+    ]
+  },
+  {
+    "name": "flare.system.Green Power",
+    "size": 336,
+    "imports": [
+      "flare.control.Access Control",
+      "flare.operation.HP-UX",
+      "flare.db.Tomcat",
+      "flare.system.Air System",
+      "flare.transform.Mainframe"
+    ]
+  },
+  {
+    "name": "flare.system.NetLine Management",
+    "size": 319,
+    "imports": [
+      "flare.control.AAA",
+      "flare.operation.AIX",
+      "flare.db.Sybase",
+      "flare.system.Building Automation and Control System(BAS)",
+      "flare.transform.NAS"
+    ]
+  },
+  {
+    "name": "flare.data.Grid Computation",
+    "size": 198,
+    "imports": [
+      "flare.data.Data Minning",
+      "flare.link.Video Monitor",
+      "flare.proto.QoS",
+      "flare.transform.Tape",
+      "flare.transform.Mainframe",
+      "flare.graph.SLA/OLA"
+    ]
+  },
+  {
+    "name": "flare.data.Machine Learning",
+    "size": 822,
+    "imports": [
+      "flare.data.DataWare House",
+      "flare.link.Temperature Humidity Sensor",
+      "flare.proto.OpenFlow",
+      "flare.transform.Minicomputers",
+      "flare.transform.MCU",
+      "flare.graph.Security Management"
+    ]
+  },
+  {
+    "name": "flare.data.Data Minning",
+    "size": 983,
+    "imports": [
+      "flare.data.Business Intelligence",
+      "flare.link.Bar Code",
+      "flare.proto.Infiniband",
+      "flare.data.Grid Computation",
+      "flare.transform.Storage",
+      "flare.transform.Load Balance",
+      "flare.graph.Change Management"
+    ]
+  },
+  {
+    "name": "flare.data.DataWare House",
+    "size": 213,
+    "imports": [
+      "flare.data.Distribute Computation",
+      "flare.link.Intelligent Access Control",
+      "flare.proto.NAT",
+      "flare.data.Machine Learning",
+      "flare.transform.Multi-media Terminal",
+      "flare.transform.IDS",
+      "flare.graph.Database Performance Monitoring",
+      "flare.graph.ITIL"
+    ]
+  },
+  {
+    "name": "flare.data.Business Intelligence",
+    "size": 181,
+    "imports": [
+      "flare.data.Hbase",
+      "flare.link.Intelligent Tab",
+      "flare.proto.DWDM",
+      "flare.data.Data Minning",
+      "flare.transform.Switch",
+      "flare.transform.Firewall",
+      "flare.graph.Application Performance Management"
+    ]
+  },
+  {
+    "name": "flare.data.Distribute Computation",
+    "size": 166,
+    "imports": [
+      "flare.data.Hadoop",
+      "flare.link.Intelligent Card",
+      "flare.proto.DAN",
+      "flare.data.DataWare House",
+      "flare.transform.SAN Switch",
+      "flare.transform.Blade Server",
+      "flare.graph.Knowledge Management",
+      "flare.graph.Capacity Management",
+      "flare.graph.Business Transaction Monitoring"
+    ]
+  },
+  {
+    "name": "flare.data.Hbase",
+    "size": 107,
+    "imports": [
+      "flare.link.PDU",
+      "flare.proto.10G Ethernet",
+      "flare.data.Business Intelligence",
+      "flare.transform.PC Server",
+      "flare.graph.Application Log Analysis"
+    ]
+  },
+  {
+    "name": "flare.data.Hadoop",
+    "size": 381,
+    "imports": [
+      "flare.link.QR Code",
+      "flare.proto.SDH",
+      "flare.data.Distribute Computation",
+      "flare.transform.Router",
+      "flare.transform.NAS",
+      "flare.graph.Server Monitoring",
+      "flare.graph.Incident Management"
+    ]
+  },
+  {
+    "name": "flare.control.Anti Virus",
+    "size": 891,
+    "imports": [
+      "flare.control.Data Recovery",
+      "flare.operation.zOS",
+      "flare.db.WebSphere",
+      "flare.proto.VLAN",
+      "flare.system.BIM",
+      "flare.graph.Security Management"
+    ]
+  },
+  {
+    "name": "flare.control.Data Backup",
+    "size": 289,
+    "imports": [
+      "flare.control.Email System",
+      "flare.operation.Windows",
+      "flare.db.WebLogic",
+      "flare.proto.VoIP",
+      "flare.system.DCIM",
+      "flare.graph.Application Performance Management"
+    ]
+  },
+  {
+    "name": "flare.control.Data Recovery",
+    "size": 510,
+    "imports": [
+      "flare.control.IDS",
+      "flare.operation.Solaris",
+      "flare.db.Tomcat",
+      "flare.proto.DNS",
+      "flare.control.Anti Virus",
+      "flare.system.KVM",
+      "flare.graph.Server Monitoring"
+    ]
+  },
+  {
+    "name": "flare.control.Email System",
+    "size": 367,
+    "imports": [
+      "flare.control.SOC",
+      "flare.operation.Linux",
+      "flare.db.Sybase",
+      "flare.proto.Multicast",
+      "flare.control.Data Backup",
+      "flare.system.PDU",
+      "flare.graph.Capacity Management"
+    ]
+  },
+  {
+    "name": "flare.control.IDS",
+    "size": 781,
+    "imports": [
+      "flare.control.LDAP",
+      "flare.operation.HP-UX",
+      "flare.db.Oracle",
+      "flare.proto.WLAN",
+      "flare.control.Data Recovery",
+      "flare.system.UPS",
+      "flare.graph.ITIL"
+    ]
+  },
+  {
+    "name": "flare.control.SOC",
+    "size": 414,
+    "imports": [
+      "flare.control.Data Encryption",
+      "flare.operation.AIX",
+      "flare.db.NoSQL",
+      "flare.proto.OSPF/BGP",
+      "flare.control.Email System",
+      "flare.system.Aircondtion",
+      "flare.graph.SLA/OLA"
+    ]
+  },
+  {
+    "name": "flare.control.LDAP",
+    "size": 933,
+    "imports": [
+      "flare.control.DMZ",
+      "flare.operation.zOS",
+      "flare.db.MySQL",
+      "flare.proto.SDN",
+      "flare.control.IDS",
+      "flare.system.PowerSystem",
+      "flare.graph.Application Log Analysis"
+    ]
+  },
+  {
+    "name": "flare.control.Data Encryption",
+    "size": 513,
+    "imports": [
+      "flare.control.DDoS",
+      "flare.operation.Windows",
+      "flare.db.DB2",
+      "flare.proto.10G Ethernet",
+      "flare.control.SOC",
+      "flare.system.Facility Monitoring",
+      "flare.graph.Business Transaction Monitoring"
+    ]
+  },
+  {
+    "name": "flare.control.DMZ",
+    "size": 361,
+    "imports": [
+      "flare.control.Access Control",
+      "flare.operation.Solaris",
+      "flare.db.WebSphere",
+      "flare.proto.DAN",
+      "flare.control.LDAP",
+      "flare.system.Air System",
+      "flare.graph.Change Management"
+    ]
+  },
+  {
+    "name": "flare.control.DDoS",
+    "size": 340,
+    "imports": [
+      "flare.control.AAA",
+      "flare.operation.Linux",
+      "flare.db.WebLogic",
+      "flare.proto.DWDM",
+      "flare.control.Data Encryption",
+      "flare.system.Building Automation and Control System(BAS)",
+      "flare.graph.Database Performance Monitoring"
+    ]
+  },
+  {
+    "name": "flare.control.Access Control",
+    "size": 732,
+    "imports": [
+      "flare.operation.HP-UX",
+      "flare.db.Tomcat",
+      "flare.proto.NAT",
+      "flare.control.DMZ",
+      "flare.system.Green Power",
+      "flare.graph.Knowledge Management",
+      "flare.graph.Incident Management"
+    ]
+  },
+  {
+    "name": "flare.control.AAA",
+    "size": 239,
+    "imports": [
+      "flare.operation.AIX",
+      "flare.db.Sybase",
+      "flare.proto.Infiniband",
+      "flare.control.DDoS",
+      "flare.system.NetLine Management"
+    ]
+  },
+  {
+    "name": "flare.operation.zOS",
+    "size": 214,
+    "imports": [
+      "flare.operation.Solaris",
+      "flare.db.WebSphere",
+      "flare.proto.OpenFlow",
+      "flare.control.LDAP",
+      "flare.control.Anti Virus",
+      "flare.system.PowerSystem",
+      "flare.system.BIM",
+      "flare.transform.Switch",
+      "flare.transform.MCU",
+      "flare.graph.CMDB"
+    ]
+  },
+  {
+    "name": "flare.operation.Windows",
+    "size": 348,
+    "imports": [
+      "flare.operation.Linux",
+      "flare.db.WebLogic",
+      "flare.proto.QoS",
+      "flare.control.Data Encryption",
+      "flare.control.Data Backup",
+      "flare.system.Facility Monitoring",
+      "flare.system.DCIM",
+      "flare.transform.Multi-media Terminal",
+      "flare.transform.Mainframe"
+    ]
+  },
+  {
+    "name": "flare.operation.Solaris",
+    "size": 843,
+    "imports": [
+      "flare.operation.HP-UX",
+      "flare.db.Tomcat",
+      "flare.proto.SDH",
+      "flare.operation.zOS",
+      "flare.control.DMZ",
+      "flare.control.Data Recovery",
+      "flare.system.Air System",
+      "flare.system.KVM",
+      "flare.transform.Storage",
+      "flare.transform.Blade Server"
+    ]
+  },
+  {
+    "name": "flare.operation.Linux",
+    "size": 593,
+    "imports": [
+      "flare.operation.AIX",
+      "flare.db.Sybase",
+      "flare.proto.VLAN",
+      "flare.operation.Windows",
+      "flare.control.DDoS",
+      "flare.control.Email System",
+      "flare.system.Building Automation and Control System(BAS)",
+      "flare.system.PDU",
+      "flare.transform.Minicomputers",
+      "flare.transform.NAS",
+      "flare.transform.Firewall",
+      "flare.graph.Enterprise Control Center(ECC)"
+    ]
+  },
+  {
+    "name": "flare.operation.HP-UX",
+    "size": 330,
+    "imports": [
+      "flare.db.Oracle",
+      "flare.proto.VoIP",
+      "flare.operation.Solaris",
+      "flare.control.Access Control",
+      "flare.control.IDS",
+      "flare.system.Green Power",
+      "flare.system.UPS",
+      "flare.transform.Tape",
+      "flare.transform.PC Server",
+      "flare.transform.IDS",
+      "flare.graph.IT Service Management(ITSM)"
+    ]
+  },
+  {
+    "name": "flare.operation.AIX",
+    "size": 287,
+    "imports": [
+      "flare.db.NoSQL",
+      "flare.proto.DNS",
+      "flare.operation.Linux",
+      "flare.control.AAA",
+      "flare.control.SOC",
+      "flare.system.NetLine Management",
+      "flare.system.Aircondtion",
+      "flare.transform.Router",
+      "flare.transform.SAN Switch",
+      "flare.transform.Load Balance",
+      "flare.graph.Helpdesk"
+    ]
+  },
+  {
+    "name": "flare.db.WebSphere",
+    "size": 277,
+    "imports": [
+      "flare.db.Tomcat",
+      "flare.link.Video Monitor",
+      "flare.proto.Multicast",
+      "flare.operation.zOS",
+      "flare.control.DMZ",
+      "flare.control.Anti Virus",
+      "flare.system.Air System",
+      "flare.system.BIM",
+      "flare.graph.SLA/OLA"
+    ]
+  },
+  {
+    "name": "flare.db.WebLogic",
+    "size": 292,
+    "imports": [
+      "flare.db.Sybase",
+      "flare.link.Temperature Humidity Sensor",
+      "flare.proto.WLAN",
+      "flare.operation.Windows",
+      "flare.control.DDoS",
+      "flare.control.Data Backup",
+      "flare.system.Building Automation and Control System(BAS)",
+      "flare.system.DCIM",
+      "flare.graph.Helpdesk"
+    ]
+  },
+  {
+    "name": "flare.db.Tomcat",
+    "size": 595,
+    "imports": [
+      "flare.db.Oracle",
+      "flare.link.Bar Code",
+      "flare.proto.OSPF/BGP",
+      "flare.db.WebSphere",
+      "flare.operation.Solaris",
+      "flare.control.Access Control",
+      "flare.control.Data Recovery",
+      "flare.system.Green Power",
+      "flare.system.KVM",
+      "flare.graph.BSM"
+    ]
+  },
+  {
+    "name": "flare.db.Sybase",
+    "size": 594,
+    "imports": [
+      "flare.db.NoSQL",
+      "flare.link.Intelligent Access Control",
+      "flare.proto.SDN",
+      "flare.db.WebLogic",
+      "flare.operation.Linux",
+      "flare.control.AAA",
+      "flare.control.Email System",
+      "flare.system.NetLine Management",
+      "flare.system.PDU",
+      "flare.graph.CMDB"
+    ]
+  },
+  {
+    "name": "flare.db.Oracle",
+    "size": 460,
+    "imports": [
+      "flare.db.MySQL",
+      "flare.link.Intelligent Tab",
+      "flare.proto.10G Ethernet",
+      "flare.db.Tomcat",
+      "flare.operation.HP-UX",
+      "flare.control.IDS",
+      "flare.system.UPS",
+      "flare.graph.ITIL"
+    ]
+  },
+  {
+    "name": "flare.db.NoSQL",
+    "size": 603,
+    "imports": [
+      "flare.db.DB2",
+      "flare.link.Intelligent Card",
+      "flare.proto.DAN",
+      "flare.db.Sybase",
+      "flare.operation.AIX",
+      "flare.control.SOC",
+      "flare.system.Aircondtion",
+      "flare.graph.IT Service Management(ITSM)"
+    ]
+  },
+  {
+    "name": "flare.db.MySQL",
+    "size": 625,
+    "imports": [
+      "flare.link.PDU",
+      "flare.proto.DWDM",
+      "flare.db.Oracle",
+      "flare.control.LDAP",
+      "flare.system.PowerSystem",
+      "flare.graph.Enterprise Control Center(ECC)"
+    ]
+  },
+  {
+    "name": "flare.db.DB2",
+    "size": 748,
+    "imports": [
+      "flare.link.QR Code",
+      "flare.proto.NAT",
+      "flare.db.NoSQL",
+      "flare.control.Data Encryption",
+      "flare.system.Facility Monitoring",
+      "flare.cloud.Private Cloud"
+    ]
+  },
+  {
+    "name": "flare.link.Video Monitor",
+    "size": 461,
+    "imports": [
+      "flare.link.Bar Code",
+      "flare.db.WebSphere",
+      "flare.data.Grid Computation",
+      "flare.cloud.Desktop-as-a-Service(DaaS)",
+      "flare.graph.Security Management",
+      "flare.graph.Business Transaction Monitoring"
+    ]
+  },
+  {
+    "name": "flare.link.Temperature Humidity Sensor",
+    "size": 597,
+    "imports": [
+      "flare.link.Intelligent Access Control",
+      "flare.db.WebLogic",
+      "flare.data.Machine Learning",
+      "flare.cloud.Infrastructure-as-a-Service(IaaS)",
+      "flare.cluster.vStorage"
+    ]
+  },
+  {
+    "name": "flare.link.Bar Code",
+    "size": 619,
+    "imports": [
+      "flare.link.Intelligent Tab",
+      "flare.link.Video Monitor",
+      "flare.db.Tomcat",
+      "flare.data.Data Minning",
+      "flare.cloud.OpenStack",
+      "flare.cluster.Hyper-V"
+    ]
+  },
+  {
+    "name": "flare.link.Intelligent Access Control",
+    "size": 283,
+    "imports": [
+      "flare.link.Intelligent Card",
+      "flare.link.Temperature Humidity Sensor",
+      "flare.db.Sybase",
+      "flare.data.DataWare House",
+      "flare.cloud.Platform-as-a-Service(PaaS)",
+      "flare.graph.Capacity Management"
+    ]
+  },
+  {
+    "name": "flare.link.Intelligent Tab",
+    "size": 283,
+    "imports": [
+      "flare.link.PDU",
+      "flare.link.Bar Code",
+      "flare.db.Oracle",
+      "flare.data.Business Intelligence",
+      "flare.cloud.Software-as-a-Service(SaaS)",
+      "flare.graph.Knowledge Management",
+      "flare.cluster.vCenter"
+    ]
+  },
+  {
+    "name": "flare.link.Intelligent Card",
+    "size": 591,
+    "imports": [
+      "flare.link.QR Code",
+      "flare.link.Intelligent Access Control",
+      "flare.db.NoSQL",
+      "flare.data.Distribute Computation",
+      "flare.cloud.Cloud Storage",
+      "flare.graph.Application Log Analysis",
+      "flare.cluster.KVM"
+    ]
+  },
+  {
+    "name": "flare.link.PDU",
+    "size": 603,
+    "imports": [
+      "flare.link.RFID",
+      "flare.link.Intelligent Tab",
+      "flare.db.MySQL",
+      "flare.data.Hbase",
+      "flare.cloud.Desktop Cloud",
+      "flare.cluster.vStorage"
+    ]
+  },
+  {
+    "name": "flare.link.QR Code",
+    "size": 599,
+    "imports": [
+      "flare.link.NFC",
+      "flare.link.Intelligent Card",
+      "flare.db.DB2",
+      "flare.data.Hadoop",
+      "flare.cloud.Test Cloud",
+      "flare.graph.Incident Management"
+    ]
+  },
+  {
+    "name": "flare.link.RFID",
+    "size": 386,
+    "imports": [
+      "flare.link.CFD",
+      "flare.link.PDU",
+      "flare.cloud.Mix Cloud",
+      "flare.graph.Database Performance Monitoring",
+      "flare.cluster.vNet"
+    ]
+  },
+  {
+    "name": "flare.link.NFC",
+    "size": 323,
+    "imports": [
+      "flare.link.QR Code",
+      "flare.cloud.Private Cloud",
+      "flare.graph.Application Performance Management"
+    ]
+  },
+  {
+    "name": "flare.link.CFD",
+    "size": 307,
+    "imports": [
+      "flare.link.RFID",
+      "flare.cloud.AutoMation",
+      "flare.graph.Server Monitoring",
+      "flare.graph.Change Management",
+      "flare.cluster.vNet"
+    ]
+  },
+  {
+    "name": "flare.proto.WLAN",
+    "size": 772,
+    "imports": [
+      "flare.proto.DNS",
+      "flare.db.WebLogic",
+      "flare.control.IDS",
+      "flare.cloud.Desktop Cloud",
+      "flare.transform.MCU"
+    ]
+  },
+  {
+    "name": "flare.proto.Multicast",
+    "size": 296,
+    "imports": [
+      "flare.proto.VoIP",
+      "flare.db.WebSphere",
+      "flare.control.Email System",
+      "flare.cloud.Cloud Storage"
+    ]
+  },
+  {
+    "name": "flare.proto.DNS",
+    "size": 363,
+    "imports": [
+      "flare.proto.VLAN",
+      "flare.proto.WLAN",
+      "flare.operation.AIX",
+      "flare.control.Data Recovery",
+      "flare.cloud.Software-as-a-Service(SaaS)",
+      "flare.transform.IDS"
+    ]
+  },
+  {
+    "name": "flare.proto.VoIP",
+    "size": 600,
+    "imports": [
+      "flare.proto.SDH",
+      "flare.proto.Multicast",
+      "flare.operation.HP-UX",
+      "flare.control.Data Backup",
+      "flare.cloud.Platform-as-a-Service(PaaS)",
+      "flare.transform.Firewall"
+    ]
+  },
+  {
+    "name": "flare.proto.VLAN",
+    "size": 280,
+    "imports": [
+      "flare.proto.QoS",
+      "flare.proto.DNS",
+      "flare.operation.Linux",
+      "flare.control.Anti Virus",
+      "flare.cloud.OpenStack",
+      "flare.transform.Blade Server"
+    ]
+  },
+  {
+    "name": "flare.proto.SDH",
+    "size": 307,
+    "imports": [
+      "flare.proto.OpenFlow",
+      "flare.proto.VoIP",
+      "flare.operation.Solaris",
+      "flare.data.Hadoop",
+      "flare.cloud.Infrastructure-as-a-Service(IaaS)",
+      "flare.transform.Router"
+    ]
+  },
+  {
+    "name": "flare.proto.QoS",
+    "size": 335,
+    "imports": [
+      "flare.proto.Infiniband",
+      "flare.proto.VLAN",
+      "flare.operation.Windows",
+      "flare.data.Grid Computation",
+      "flare.cloud.Desktop-as-a-Service(DaaS)",
+      "flare.transform.Tape"
+    ]
+  },
+  {
+    "name": "flare.proto.OpenFlow",
+    "size": 299,
+    "imports": [
+      "flare.proto.NAT",
+      "flare.proto.SDH",
+      "flare.operation.zOS",
+      "flare.data.Machine Learning",
+      "flare.transform.Minicomputers"
+    ]
+  },
+  {
+    "name": "flare.proto.Infiniband",
+    "size": 354,
+    "imports": [
+      "flare.proto.DWDM",
+      "flare.proto.QoS",
+      "flare.data.Data Minning",
+      "flare.transform.Storage"
+    ]
+  },
+  {
+    "name": "flare.proto.NAT",
+    "size": 264,
+    "imports": [
+      "flare.proto.DAN",
+      "flare.proto.OpenFlow",
+      "flare.db.DB2",
+      "flare.control.AAA",
+      "flare.control.Access Control",
+      "flare.data.DataWare House",
+      "flare.transform.Multi-media Terminal"
+    ]
+  },
+  {
+    "name": "flare.proto.DWDM",
+    "size": 843,
+    "imports": [
+      "flare.proto.10G Ethernet",
+      "flare.proto.Infiniband",
+      "flare.db.MySQL",
+      "flare.control.DDoS",
+      "flare.data.Business Intelligence",
+      "flare.transform.Switch"
+    ]
+  },
+  {
+    "name": "flare.proto.DAN",
+    "size": 554,
+    "imports": [
+      "flare.proto.OSPF/BGP",
+      "flare.proto.NAT",
+      "flare.db.NoSQL",
+      "flare.control.DMZ",
+      "flare.data.Distribute Computation",
+      "flare.cloud.AutoMation",
+      "flare.transform.SAN Switch"
+    ]
+  },
+  {
+    "name": "flare.proto.10G Ethernet",
+    "size": 970,
+    "imports": [
+      "flare.proto.SDN",
+      "flare.proto.DWDM",
+      "flare.db.Oracle",
+      "flare.control.Data Encryption",
+      "flare.data.Hbase",
+      "flare.cloud.Private Cloud",
+      "flare.transform.PC Server"
+    ]
+  },
+  {
+    "name": "flare.proto.OSPF/BGP",
+    "size": 396,
+    "imports": [
+      "flare.proto.DAN",
+      "flare.db.Tomcat",
+      "flare.control.SOC",
+      "flare.cloud.Test Cloud",
+      "flare.transform.Mainframe"
+    ]
+  },
+  {
+    "name": "flare.proto.SDN",
+    "size": 594,
+    "imports": [
+      "flare.proto.10G Ethernet",
+      "flare.db.Sybase",
+      "flare.control.LDAP",
+      "flare.cloud.Mix Cloud",
+      "flare.transform.NAS"
+    ]
+  }
+]

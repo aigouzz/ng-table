@@ -1,0 +1,1023 @@
+[
+  {
+    "name": "flare.cluster.Hyper-V",
+    "size": 3938,
+    "imports": [
+      "flare.graph.BSM",
+      "flare.cluster.KVM",
+      "flare.cluster.vCenter",
+      "flare.cluster.vMotion",
+      "flare.graph.CMDB",
+      "flare.link.条形码"
+    ]
+  },
+  {
+    "name": "flare.cluster.KVM",
+    "size": 3812,
+    "imports": [
+      "flare.graph.BSM",
+      "flare.graph.CMDB",
+      "flare.cluster.vCenter",
+      "flare.cluster.vMotion",
+      "flare.cluster.网络虚拟化",
+      "flare.link.智能卡"
+    ]
+  },
+  {
+    "name": "flare.cluster.vCenter",
+    "size": 6714,
+    "imports": [
+      "flare.cluster.网络虚拟化",
+      "flare.cluster.存储虚拟化",
+      "flare.graph.ITIL",
+      "flare.graph.Enterprise Control Center(ECC)",
+      "flare.link.智能标签"
+    ]
+  },
+  {
+    "name": "flare.cluster.vMotion",
+    "size": 743,
+    "imports": [
+      "flare.cluster.存储虚拟化",
+      "flare.cluster.网络虚拟化",
+      "flare.graph.IT Service Management(ITSM)",
+      "flare.graph.安全管理",
+      "flare.graph.网络管理"
+    ]
+  },
+  {
+    "name": "flare.cluster.存储虚拟化",
+    "size": 3534,
+    "imports": [
+      "flare.link.气体/温湿度感应器",
+      "flare.cluster.网络虚拟化",
+      "flare.link.智能PDU"
+    ]
+  },
+  {
+    "name": "flare.cluster.网络虚拟化",
+    "size": 5731,
+    "imports": [
+      "flare.cluster.vMotion",
+      "flare.graph.服务器监控",
+      "flare.graph.资产管理",
+      "flare.link.RFID",
+      "flare.link.CFD"
+    ]
+  },
+  {
+    "name": "flare.graph.BSM",
+    "size": 7840,
+    "imports": [
+      "flare.graph.ITIL",
+      "flare.graph.应用性能管理",
+      "flare.graph.网络流量分析",
+      "flare.db.Tomcat",
+      "flare.cloud.桌面云"
+    ]
+  },
+  {
+    "name": "flare.graph.CMDB",
+    "size": 192,
+    "imports": [
+      "flare.graph.SLA/OLA",
+      "flare.graph.业务交易监控",
+      "flare.graph.安全管理",
+      "flare.graph.网络管理",
+      "flare.db.Sybase",
+      "flare.cloud.自动化",
+      "flare.operation.zOS"
+    ]
+  },
+  {
+    "name": "flare.graph.Enterprise Control Center(ECC)",
+    "size": 495,
+    "imports": [
+      "flare.graph.Helpdesk",
+      "flare.graph.事件管理",
+      "flare.graph.数据库性能监控",
+      "flare.db.MySQL",
+      "flare.cloud.测试云",
+      "flare.operation.Linux"
+    ]
+  },
+  {
+    "name": "flare.graph.Helpdesk",
+    "size": 1674,
+    "imports": [
+      "flare.graph.应用性能管理",
+      "flare.graph.配置管理",
+      "flare.graph.服务器监控",
+      "flare.graph.网络管理",
+      "flare.db.WebLogic",
+      "flare.cloud.混合云",
+      "flare.operation.AIX"
+    ]
+  },
+  {
+    "name": "flare.graph.IT Service Management(ITSM)",
+    "size": 2541,
+    "imports": [
+      "flare.graph.安全管理",
+      "flare.graph.业务交易监控",
+      "flare.graph.知识管理",
+      "flare.graph.网络流量分析",
+      "flare.db.NoSQL",
+      "flare.cloud.Desktop-as-a-Service(DaaS)",
+      "flare.operation.HP-UX"
+    ]
+  },
+  {
+    "name": "flare.graph.ITIL",
+    "size": 7074,
+    "imports": [
+      "flare.graph.应用日志分析",
+      "flare.graph.服务器监控",
+      "flare.graph.资产管理",
+      "flare.data.数据仓库",
+      "flare.db.Oracle",
+      "flare.cloud.Infrastructure-as-a-Service(IaaS)",
+      "flare.control.入侵检测"
+    ]
+  },
+  {
+    "name": "flare.graph.SLA/OLA",
+    "size": 3426,
+    "imports": [
+      "flare.cluster.vMotion",
+      "flare.graph.网络管理",
+      "flare.graph.资产管理",
+      "flare.data.网格计算",
+      "flare.db.WebSphere",
+      "flare.cloud.Software-as-a-Service(SaaS)",
+      "flare.control.SOC"
+    ]
+  },
+  {
+    "name": "flare.graph.业务交易监控",
+    "size": 4524,
+    "imports": [
+      "flare.cluster.vMotion",
+      "flare.graph.网络管理",
+      "flare.graph.配置管理",
+      "flare.data.分布式计算",
+      "flare.link.视频监控",
+      "flare.cloud.Platform-as-a-Service(PaaS)",
+      "flare.control.Data Encryption(加解密)"
+    ]
+  },
+  {
+    "name": "flare.graph.事件管理",
+    "size": 3416,
+    "imports": [
+      "flare.cluster.存储虚拟化",
+      "flare.graph.CMDB",
+      "flare.graph.网络管理",
+      "flare.data.Hadoop",
+      "flare.link.二维码",
+      "flare.cloud.云存储",
+      "flare.control.Access Control访问控制"
+    ]
+  },
+  {
+    "name": "flare.graph.变更管理",
+    "size": 3416,
+    "imports": [
+      "flare.cluster.Hyper-V",
+      "flare.graph.Helpdesk",
+      "flare.graph.配置管理",
+      "flare.data.数据挖掘",
+      "flare.link.CFD",
+      "flare.cloud.自动化",
+      "flare.control.DMZ"
+    ]
+  },
+  {
+    "name": "flare.graph.安全管理",
+    "size": 3416,
+    "imports": [
+      "flare.cluster.网络虚拟化",
+      "flare.graph.Enterprise Control Center(ECC)",
+      "flare.graph.ITIL",
+      "flare.data.商业智能",
+      "flare.link.条形码",
+      "flare.cloud.私有云",
+      "flare.control.DDoS"
+    ]
+  },
+  {
+    "name": "flare.graph.容量管理",
+    "size": 3416,
+    "imports": [
+      "flare.cluster.vCenter",
+      "flare.graph.SLA/OLA",
+      "flare.graph.资产管理",
+      "flare.data.分布式计算",
+      "flare.link.智能门禁",
+      "flare.cloud.混合云",
+      "flare.control.反垃圾邮件系统"
+    ]
+  },
+  {
+    "name": "flare.graph.应用性能管理",
+    "size": 3416,
+    "imports": [
+      "flare.cluster.KVM",
+      "flare.graph.BSM",
+      "flare.graph.网络管理",
+      "flare.data.机器学习",
+      "flare.link.智能标签",
+      "flare.cloud.Openstack",
+      "flare.control.灾难备份"
+    ]
+  },
+  {
+    "name": "flare.graph.应用日志分析",
+    "size": 3416,
+    "imports": [
+      "flare.cluster.存储虚拟化",
+      "flare.graph.IT Service Management(ITSM)",
+      "flare.graph.知识管理",
+      "flare.data.数据挖掘",
+      "flare.link.智能卡",
+      "flare.cloud.测试云",
+      "flare.control.防病毒"
+    ]
+  },
+  {
+    "name": "flare.graph.数据库性能监控",
+    "size": 3416,
+    "imports": [
+      "flare.cluster.vMotion",
+      "flare.graph.ITIL",
+      "flare.graph.配置管理",
+      "flare.data.商业智能",
+      "flare.operation.Linux",
+      "flare.cloud.云存储",
+      "flare.control.LDAP"
+    ]
+  },
+  {
+    "name": "flare.graph.服务器监控",
+    "size": 3416,
+    "imports": [
+      "flare.cluster.KVM",
+      "flare.graph.CMDB",
+      "flare.graph.网络管理",
+      "flare.data.数据仓库",
+      "flare.operation.Windows",
+      "flare.cloud.混合云",
+      "flare.control.入侵检测"
+    ]
+  },
+  {
+    "name": "flare.graph.知识管理",
+    "size": 3416,
+    "imports": [
+      "flare.cluster.vCenter",
+      "flare.graph.业务交易监控",
+      "flare.graph.变更管理",
+      "flare.data.商业智能",
+      "flare.operation.HP-UX",
+      "flare.cloud.Platform-as-a-Service(PaaS)",
+      "flare.control.DDoS"
+    ]
+  },
+  {
+    "name": "flare.graph.网络流量分析",
+    "size": 3416,
+    "imports": [
+      "flare.cluster.网络虚拟化",
+      "flare.graph.BSM",
+      "flare.graph.网络流量分析",
+      "flare.link.智能标签",
+      "flare.operation.Linux",
+      "flare.cloud.公有云",
+      "flare.control.DMZ"
+    ]
+  },
+  {
+    "name": "flare.graph.网络管理",
+    "size": 3416,
+    "imports": [
+      "flare.cluster.存储虚拟化",
+      "flare.graph.CMDB",
+      "flare.graph.应用日志分析",
+      "flare.link.RFID",
+      "flare.operation.Linux",
+      "flare.cloud.云存储",
+      "flare.control.SOC"
+    ]
+  },
+  {
+    "name": "flare.graph.资产管理",
+    "size": 3416,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.graph.配置管理",
+    "size": 3416,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.transform.Blade Server刀片服务器",
+    "size": 17010,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.transform.Firewall防火墙",
+    "size": 5842,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.transform.IDS入侵监测系统",
+    "size": 1983,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.transform.Load Banlancer负载均衡器",
+    "size": 2047,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.transform.MCU多媒体控制单元",
+    "size": 1375,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.transform.Mainframe大型主机",
+    "size": 8746,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.transform.NAS",
+    "size": 2202,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.transform.PC Server",
+    "size": 1382,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.transform.SAN交换机",
+    "size": 1629,
+    "imports":
+    [
+
+    ]
+  },
+  {
+    "name": "flare.transform.交换机",
+    "size": 1675,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.transform.多媒体终端",
+    "size": 2042,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.transform.存储阵列",
+    "size": 1041,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.transform.小型机",
+    "size": 5176,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.transform.磁带库",
+    "size": 449,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.transform.路由器",
+    "size": 5593,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.cloud.Desktop-as-a-Service(DaaS)",
+    "size": 5534,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.cloud.Infrastructure-as-a-Service(IaaS)",
+    "size": 9201,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.cloud.OpenStack",
+    "size": 19975,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.cloud.Platform-as-a-Service(PaaS)",
+    "size": 1116,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.cloud.Software-as-a-Service(SaaS)",
+    "size": 6006,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.cloud.云存储",
+    "size": 721,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.cloud.公有云",
+    "size": 4294,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.cloud.桌面云",
+    "size": 9800,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.cloud.测试云",
+    "size": 1314,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.cloud.混合云",
+    "size": 2220,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.cloud.私有云",
+    "size": 1759,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.cloud.自动化",
+    "size": 2165,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.system.BIM",
+    "size": 586,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.system.DCIM",
+    "size": 3331,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.system.KVM",
+    "size": 772,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.system.PDU",
+    "size": 3322,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.system.UPS",
+    "size": 8833,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.system.制冷系统",
+    "size": 1732,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.system.动力系统",
+    "size": 3623,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.system.动环监控",
+    "size": 10066,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.system.新风系统",
+    "size": 4116,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.system.楼宇自控",
+    "size": 1082,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.system.绿色节能",
+    "size": 1336,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.system.网络布线",
+    "size": 319,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.data.网格计算",
+    "size": 10498,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.data.机器学习",
+    "size": 2822,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.data.数据挖掘",
+    "size": 9983,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.data.数据仓库",
+    "size": 2213,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.data.商业智能",
+    "size": 1681,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.data.分布式计算",
+    "size": 1616,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.data.Hbase",
+    "size": 1027,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.data.Hadoop",
+    "size": 3891,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.control.防病毒",
+    "size": 891,
+    "imports": [
+      "flare.system.楼宇自控",
+      "flare.proto.Infiniband",
+      "flare.db.Oracle",
+      "flare.control.SOC"
+    ]
+  },
+  {
+    "name": "flare.control.灾难备份",
+    "size": 2893,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.control.数据恢复",
+    "size": 5103,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.control.反垃圾邮件系统",
+    "size": 3677,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.control.入侵检测",
+    "size": 781,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.control.SOC",
+    "size": 4141,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.control.LDAP",
+    "size": 933,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.control.Data Encryption(加解密)",
+    "size": 5130,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.control.DMZ",
+    "size": 3617,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.control.DDoS",
+    "size": 3240,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.control.Access Control访问控制",
+    "size": 2732,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.control.AAA认证",
+    "size": 2039,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.operation.zOS",
+    "size": 1214,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.operation.Windows",
+    "size": 3748,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.operation.Solaris",
+    "size": 843,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.operation.Linux",
+    "size": 593,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.operation.HP-UX",
+    "size": 330,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.operation.AIX",
+    "size": 287,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.db.WebSphere",
+    "size": 277,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.db.WebLogic",
+    "size": 292,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.db.Tomcat",
+    "size": 595,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.db.Sybase",
+    "size": 594,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.db.Oracle",
+    "size": 460,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.db.NoSQL",
+    "size": 603,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.db.MySQL",
+    "size": 625,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.db.DB2",
+    "size": 748,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.link.视频监控",
+    "size": 461,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.link.气体/温湿度感应器",
+    "size": 597,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.link.条形码",
+    "size": 619,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.link.智能门禁",
+    "size": 283,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.link.智能标签",
+    "size": 283,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.link.智能卡",
+    "size": 591,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.link.智能PDU",
+    "size": 603,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.link.二维码",
+    "size": 599,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.link.RFID",
+    "size": 386,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.link.NFC",
+    "size": 323,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.link.CFD",
+    "size": 307,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.无线局域网WLAN",
+    "size": 772,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.多点广播Multicast",
+    "size": 296,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.域名解析DNS",
+    "size": 363,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.VoIP",
+    "size": 600,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.VLAN",
+    "size": 280,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.SDH",
+    "size": 307,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.QoS",
+    "size": 335,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.OpenFlow",
+    "size": 299,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.Infiniband",
+    "size": 354,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.IP地址翻译NAT",
+    "size": 264,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.DWDM",
+    "size": 843,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.DAN",
+    "size": 1554,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.10G Ethernet万兆以太网",
+    "size": 970,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.路由协议OSPF/BGP",
+    "size": 13896,
+    "imports": [
+
+    ]
+  },
+  {
+    "name": "flare.proto.软件定义网络SDN",
+    "size": 1594,
+    "imports": [
+
+    ]
+  }
+]
